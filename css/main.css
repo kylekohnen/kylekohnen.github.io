@@ -7,4 +7,26 @@
 
 .profile {
     text-align: center;
+    font-family: "Open Sans", sans-serif;
+    margin: auto;
+    margin-top: 5%;
+    padding: 50px;
+}
+
+.profile h1 {
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.profile-link {
+    display: inline-block;
+    margin: 15px;
+    list-style: none;
+    font-size: 45px;
+}
+
+.profile-img {
+    height: 200px;
+    width: 200px;
 }
