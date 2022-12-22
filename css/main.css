@@ -1,0 +1,39 @@
+* {
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.profile {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    margin: auto;
+    margin-top: 4%;
+    padding: 50px;
+}
+
+.profile-name {
+    font-size: 50px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.profile-link {
+    display: inline-block;
+    margin: 15px;
+    list-style: none;
+    font-size: 45px;
+    transition: all ease-in-out 500ms;
+}
+
+.profile-link :hover {
+    color: #b9b9b9
+}
+
+.profile-img {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 50px;
+}
