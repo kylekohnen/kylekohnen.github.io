@@ -7,16 +7,17 @@
 
 .profile {
     text-align: center;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter", sans-serif;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 4%;
     padding: 50px;
 }
 
-.profile h1 {
-    font-size: 40px;
-    font-weight: 300;
+.profile-name {
+    font-size: 50px;
+    font-weight: normal;
     letter-spacing: 1px;
+    margin-bottom: 25px;
 }
 
 .profile-link {
@@ -24,9 +25,15 @@
     margin: 15px;
     list-style: none;
     font-size: 45px;
+    transition: all ease-in-out 500ms;
+}
+
+.profile-link :hover {
+    color: #b9b9b9
 }
 
 .profile-img {
     height: 200px;
     width: 200px;
+    margin-bottom: 50px;
 }
