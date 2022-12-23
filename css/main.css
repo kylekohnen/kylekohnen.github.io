@@ -29,7 +29,8 @@
 }
 
 .profile-link :hover {
-    color: #b9b9b9
+    /* color: #b9b9b9; */
+    opacity: .80;
 }
 
 .profile-img {
@@ -57,4 +58,16 @@
 .error-404 p {
     padding: 10px;
     margin-bottom: 5%;
+}
+
+.error-404 a {
+    background-color: red;
+    padding: 15px 35px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bolder;
+}
+
+.error-404 a:hover {
+    opacity: .80;
 }
