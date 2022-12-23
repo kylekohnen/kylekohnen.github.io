@@ -3,11 +3,11 @@
     color: white;
     margin: 0;
     padding: 0;
+    font-family: "Montserrat", sans-serif;
 }
 
 .profile {
     text-align: center;
-    font-family: "Montserrat", sans-serif;
     margin: auto;
     margin-top: 4%;
     padding: 50px;
@@ -36,4 +36,25 @@
     height: 200px;
     width: 200px;
     margin-bottom: 50px;
+}
+
+.error-404 {
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.error-404 h1 {
+    font-size: 200px;
+    padding: 20px;
+}
+
+.error-404 h2 {
+    font-size: 40px;
+    padding: 15px;
+}
+
+.error-404 p {
+    padding: 10px;
+    margin-bottom: 5%;
 }
