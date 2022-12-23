@@ -3,18 +3,18 @@
     color: white;
     margin: 0;
     padding: 0;
+    font-family: "Montserrat", sans-serif;
 }
 
 .profile {
     text-align: center;
-    font-family: "Inter", sans-serif;
     margin: auto;
     margin-top: 4%;
     padding: 50px;
 }
 
 .profile-name {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: normal;
     letter-spacing: 1px;
     margin-bottom: 25px;
@@ -29,11 +29,45 @@
 }
 
 .profile-link :hover {
-    color: #b9b9b9
+    /* color: #b9b9b9; */
+    opacity: .80;
 }
 
 .profile-img {
     height: 200px;
     width: 200px;
     margin-bottom: 50px;
+}
+
+.error-404 {
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.error-404 h1 {
+    font-size: 200px;
+    padding: 20px;
+}
+
+.error-404 h2 {
+    font-size: 40px;
+    padding: 15px;
+}
+
+.error-404 p {
+    padding: 10px;
+    margin-bottom: 5%;
+}
+
+.error-404 a {
+    background-color: red;
+    padding: 15px 35px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bolder;
+}
+
+.error-404 a:hover {
+    opacity: .80;
 }
