@@ -7,14 +7,14 @@
 
 .profile {
     text-align: center;
-    font-family: "Inter", sans-serif;
+    font-family: "Montserrat", sans-serif;
     margin: auto;
     margin-top: 4%;
     padding: 50px;
 }
 
 .profile-name {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: normal;
     letter-spacing: 1px;
     margin-bottom: 25px;
